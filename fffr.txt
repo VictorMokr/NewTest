@@ -1,8 +1,24 @@
-rr4rr4r4r4r4r4
-51515465465465
+
 echo "# TEST1" >> README.md
+
+git config
+
 git init
+
 git add README.md
 git commit -m "first commit"
+
 git remote add origin https://github.com/VictorMokr/TEST1.git
 git push -u origin master
+
+git help
+
+git checkout -- fffr.txt - откат к сохраненному в репозитарии
+
+git status
+
+git log --pretty=format:"%h - %an, %ar : %s" --since=2.weeks
+
+git log -p -2
+
+git add .
