@@ -1,0 +1,39 @@
+
+echo "# TEST1" >> README.md
+
+git config
+
+git init
+
+git add README.md
+git commit -m "first commit"
+
+git remote add origin https://github.com/VictorMokr/TEST1.git
+git push -u origin master
+
+git help
+
+git checkout -- fffr.txt - откат к сохраненному в репозитарии
+
+git status
+
+git log --pretty=format:"%h - %an, %ar : %s" --since=2.weeks
+
+git log -p -2
+
+git add .
+
+git config --global core.editor "'C:/folder/folder/file.exe' -multiInst
+-notabbar -nosession -noPlugin" - меняет редактор комментариев
+
+Xmind - для диаграмм
+
+git checkout -b test1 - создает ветку и переключается на нее
+
+git branch -  посмотреть ветки
+
+git branch test2 -  создает ветку
+
+git checkout test2 - переключение на нужную ветку
+
+git branch -v  - посмотреть все ветки
