@@ -37,3 +37,7 @@ git branch test2 -  создает ветку
 git checkout test2 - переключение на нужную ветку
 
 git branch -v  - посмотреть все ветки
+
+git config --global merge.tool kdiff3  - казывает утилиту для мержа
+
+git mergetool -запуск утилиты
