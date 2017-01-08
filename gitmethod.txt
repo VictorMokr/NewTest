@@ -24,6 +24,7 @@ git rm --cashed имя файла - удаление из git
 git commit -m "first commit"
 git checkout -- fffr.txt - откат к сохраненному в репозитарии
 
+
 3) Не основные
 
 git log - история репозитария (Q выход из истории)
@@ -31,6 +32,7 @@ git log - история репозитария (Q выход из истории)
 git log --pretty=format:"%h - %an, %ar : %s" --since=2.weeks
 
 git log -p -2
+
 
 4) github
 
@@ -46,6 +48,8 @@ git checkout -b test1 - создает ветку и переключается на нее
 git branch -  посмотреть ветки
 
 git branch test2 -  создает ветку
+
+git branch -d test2 - удалить ветку
 
 git checkout test2 - переключение на нужную ветку
 
