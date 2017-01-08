@@ -3,35 +3,43 @@ echo "# TEST1" >> README.md
 
 git config
 
-git init
 
+1) Установка и инициализации GIT
+  git init
+  git config --global user.name "victor"
+  git config --global user.email mokrinskiy1979@gmail.com
+ 
 
-git config --global user.name "victor"
-git config --global user.email mokrinskiy1979@gmail.com
-
-
-git add README.md
-git commit -m "first commit"
-
-git remote add origin https://github.com/VictorMokr/TEST1.git
-git push -u origin master
-
+2) Основные функции
 git help
 
+git status
+
+git add . добавляем все
+
+git add README.md добавляем файлы
+
+git rm --cashed имя файла - удаление из git
+
+git commit -m "first commit"
 git checkout -- fffr.txt - откат к сохраненному в репозитарии
 
-git status
+3) Не основные
+
+git log - история репозитария (Q выход из истории)
 
 git log --pretty=format:"%h - %an, %ar : %s" --since=2.weeks
 
 git log -p -2
 
-git add .
+4) github
 
-git config --global core.editor "'C:/folder/folder/file.exe' -multiInst
--notabbar -nosession -noPlugin" - меняет редактор комментариев
+git remote add origin https://github.com/VictorMokr/TEST1.git
 
-Xmind - для диаграмм
+git push -u origin master
+
+
+5) Branch
 
 git checkout -b test1 - создает ветку и переключается на нее
 
