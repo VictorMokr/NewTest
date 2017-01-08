@@ -5,6 +5,11 @@ git config
 
 git init
 
+
+git config --global user.name "victor"
+git config --global user.email mokrinskiy1979@gmail.com
+
+
 git add README.md
 git commit -m "first commit"
 
